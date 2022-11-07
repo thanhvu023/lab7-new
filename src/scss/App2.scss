@@ -1,0 +1,88 @@
+.MuiButton-text{
+    color: red;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // margin: 30px auto;
+    border: 8px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px lightblue;
+    .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+        color: rgb(12, 1, 1);
+        
+    }
+    .MuiButtonBase-root{
+        width: 50%;
+        margin: 0 auto;
+        
+    }
+    .css-yzvdu9-MuiTypography-root[focused="true"]{
+
+    }
+    input{
+        border-bottom: none;
+        margin: 0 auto;
+    }
+}
+
+.item-form {
+    margin-top: 20px!important;
+}
+
+.containerq {
+    width: 100%;
+    height: 1000px;
+    .ti{
+            padding-left: 900px;
+    }
+     
+    .cardc{
+        position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50% );
+           width: 80%;
+           height: 60%;
+           display: flex;
+           #header{
+            padding-left: 200px;
+            font-size: xx-large;
+            text-shadow: 2px 2px red;
+            border: 2px solid black;
+           background-color: rgb(105, 103, 206);
+           }
+           h1{
+            margin: 20px;
+            
+          }
+        
+    }
+    .cardq{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+        width: 80%;
+        height: 60%;
+        // display: flex;
+        .co1{
+            background-color:white;
+            height: 100%;
+            width: 100%;
+        
+        
+          
+        }
+     
+        // .co2{
+        //     height: 100%;
+        //     width: 50%;
+        //     background-color: bisque;
+          
+        // }
+    }
+
+}
